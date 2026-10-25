@@ -1,0 +1,17 @@
+name: snrna-aging-microglia
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.4
+  - r-seurat>=5.1
+  - r-harmony
+  - r-ggplot2
+  - r-dplyr
+  - r-tidyr
+  - r-patchwork
+  - r-tibble
+  - bioconductor-clusterprofiler
+  - bioconductor-org.mm.eg.db
+  - bioconductor-monocle3
+  # CellChat is installed from GitHub; see README.

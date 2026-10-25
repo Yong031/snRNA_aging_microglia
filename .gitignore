@@ -1,0 +1,10 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+data/
+results/
+*.rds
+*.h5ad
+*.h5
+*.mtx.gz
