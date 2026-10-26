@@ -1,8 +1,8 @@
 # snRNA aging microglia
 
-Reproducible, path-independent R code for the single-nucleus and single-cell transcriptomic panels in the manuscript **Microglial GPR183 drives an aging-amplified state in neuropathic pain**.
+R code for the single-nucleus and single-cell transcriptomic panels in the manuscript "Microglial GPR183 drives an aging-amplified state in neuropathic pain".
 
-The scripts are organized by the V7 artwork. They do not contain local computer or server paths. Each script accepts an input RDS file and an output directory:
+The scripts do not contain local computer or server paths. Each script accepts an input RDS file and an output directory:
 
 ```bash
 Rscript R/Figure1/figure1_snrna_panels.R data/annotated_spinal_cord.rds results/Figure1
@@ -10,7 +10,7 @@ Rscript R/Figure1/figure1_snrna_panels.R data/annotated_spinal_cord.rds results/
 
 Every plotting script writes vector PDF, 600-dpi PNG and CSV source-data files where applicable.
 
-## Scope and evidence boundaries
+# Scope and evidence boundaries
 
 - Cell-level violin plots reproduce the manuscript display, but nuclei are not independent biological replicates. Sample-level summaries are exported for replicate-aware inference.
 - Cell-type fractions are calculated within each biological sample before group summaries.
